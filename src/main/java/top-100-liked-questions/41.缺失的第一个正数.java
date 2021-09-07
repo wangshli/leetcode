@@ -6,6 +6,7 @@
 
 // @lc code=start
 /*
+空间复杂度为O(n)
 class Solution {
     public int firstMissingPositive(int[] nums) {
         int[] ind = new int[nums.length];
