@@ -7,6 +7,7 @@
 // @lc code=start
 class Solution {
     /**
+    没有考虑到单词中字母出现次数
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> ans = new ArrayList<List<String>>();
         List<String> strsaslist = Arrays.asList(strs);
